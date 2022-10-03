@@ -1,7 +1,7 @@
 var fizzBuzz = function(n) {
-    let res = []; // empty array of the results
-    let line = ""; // temp value that holds the current index's value before push
-    n++; // removes need to also check for == case
+    let res = [];
+    let line = "";
+    n++; 
     for(var i = 1; i < n; i++) {
       if(i % 3 == 0) {
         line = "Fizz";
